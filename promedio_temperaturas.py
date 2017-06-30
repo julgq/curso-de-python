@@ -4,7 +4,7 @@ def average_temps(temps):
 	sum_of_temps = 0
 
 	for temp in temps:
-		sum_of_temps += temp
+		sum_of_temps += float(temp)
 
 	return sum_of_temps / len(temps)
 
